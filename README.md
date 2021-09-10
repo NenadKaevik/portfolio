@@ -1,24 +1,7 @@
-# Nenad Kaevik VCard
+# My personal portfolio
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This is my personal portfolio website. Feel free to reuse the source code for your own page.
+### Tech
+[Vue](https://vuejs.org/)<br/>
+[Gsap](https://greensock.com/gsap/)<br/>
+[Tailwind](https://tailwindcss.com/)
