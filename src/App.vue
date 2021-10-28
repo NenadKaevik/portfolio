@@ -1,13 +1,13 @@
 <template>
   <div class="absolute w-full min-h-full dark:bg-black bg-white">
-    <div class="w-full sm:w-1/3 p-10 sm:p-20 font-urbanist space-y-4 sm:space-y-8 select-none">
+    <div class="w-full sm:w-1/2 p-10 sm:p-20 font-urbanist space-y-4 sm:space-y-8 select-none">
       <h1 class="text-6xl font-bold hello dark:text-white text-gray-800">Hello<span class="inline-block dot">.</span></h1>
       <h3 class="text-2xl sm:text-4xl font-semibold dark:text-white text-gray-800 name">My name is Nenad Kaevik</h3>
       <div class="text-gray-500 dark:text-gray-400 text-xl sm:text-2xl space-y-4 paragraph">  
         <p class="line">
           I am Web Developer and passionate UI designer giving strong importance to details and aesthetics.
           I currently work for <a target="_blank" href="https://www.endava.com/" class="font-bold text-red-500">Endava</a> as a Frontend Developer. 
-          My expertise covers 8+ years in Web Development and Graphic Design working for both startup and enterprise companies.
+          My expertise covers {{yearsOfExpertise}}+ years in Web Development and Graphic Design working for both startup and enterprise companies.
           Read more about my expertise by checking my <a target="_blank" href="https://docs.google.com/document/d/1NqePv88QWuSDe25HWW-ccBIH9vr7e8zMgJOwLm1JiEE/export?format=pdf" class="font-bold text-indigo-500">resume</a>.
         </p>
         <p class="line">
@@ -57,7 +57,6 @@ export default {
   components: {
     FontAwesomeIcon,
   },
-
   mounted(){
     const tl = new TimelineLite();
     tl.from(".hello", 1, {
@@ -76,6 +75,11 @@ export default {
       ease: Power3.easeOut ,
       autoAlpha: 0,
     }, 0.1, '-=0.6', "stagger",)
+  },
+  computed:{
+    yearsOfExpertise: () => {
+      return new Date().getFullYear() - 2012;
+    }
   }
 }
 </script>
