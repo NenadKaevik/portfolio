@@ -6,7 +6,7 @@
       <div class="text-gray-500 dark:text-gray-400 text-xl sm:text-2xl space-y-4 paragraph">  
         <p class="line">
           I am Web Developer and passionate UI designer giving strong importance to details and aesthetics.
-          I currently work for <a target="_blank" href="https://www.endava.com/" class="font-bold text-red-500">Endava</a> as a Frontend Developer. 
+          I currently work for <a target="_blank" href="https://www.endava.com/" class="font-bold text-red-500">Endava</a> as a Software Engineer. 
           My expertise covers {{yearsOfExpertise}}+ years in Web Development and Graphic Design working for both startup and enterprise companies.
           Read more about my expertise by checking my <a target="_blank" href="https://docs.google.com/document/d/1NqePv88QWuSDe25HWW-ccBIH9vr7e8zMgJOwLm1JiEE/export?format=pdf" class="font-bold text-indigo-500">resume</a>.
         </p>
