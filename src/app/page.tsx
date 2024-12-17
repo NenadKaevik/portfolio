@@ -27,18 +27,19 @@ export default function HomePage() {
       <div className="flex flex-col space-y-8">
         <h1 className="text-6xl sm:text-8xl font-semibold">Hello.</h1>
         <h2 className="text-3xl sm:text-4xl">
-          I'm <span className="font-semibold">Nenad Kaevik</span>
+          I&apos;m <span className="font-semibold">Nenad Kaevik</span>
         </h2>
         <p className="font-light leading-7 text-gray-600 dark:text-gray-400">
           I am an experienced web developer with over {workExperience} years of
           expertise, specializing in crafting visually stunning and highly
           functional digital solutions. For the past {companyExperience} years,
-          I've been contributing my skills to Endava, where I combine technical
-          proficiency with a strong focus on aesthetics and meticulous attention
-          to detail. My background also includes UI design and logo creation,
-          where I bring brands to life through compelling visuals. Outside of
-          coding, I channel my creativity through photography, capturing moments
-          that tell stories and reflect my keen eye for detail and artistry.
+          I&apos;ve been contributing my skills to Endava, where I combine
+          technical proficiency with a strong focus on aesthetics and meticulous
+          attention to detail. My background also includes UI design and logo
+          creation, where I bring brands to life through compelling visuals.
+          Outside of coding, I channel my creativity through photography,
+          capturing moments that tell stories and reflect my keen eye for detail
+          and artistry.
         </p>
         <div className="space-x-4">
           <Button

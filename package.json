@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "npm run build && aws --profile nenadkaevik@gmail.com --region eu-central-1 s3 sync ./out s3://nenadkaevik.com --delete"
   },
   "dependencies": {
     "moment": "^2.30.1",

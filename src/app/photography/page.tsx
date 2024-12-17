@@ -2,8 +2,6 @@ import { PageTitle } from "@/components/PageTitle";
 import { Photo } from "@/components/Photo";
 import { photos } from "@/content/photos";
 import { Dropdown } from "primereact/dropdown";
-import { InputText } from "primereact/inputtext";
-import React from "react";
 
 export default function Photography() {
   const categories = [
