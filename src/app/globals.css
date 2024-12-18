@@ -8,3 +8,20 @@
   @tailwind components;
   @tailwind utilities;
 }
+
+@keyframes fadeIn {
+  from {
+    transform: scale(0.95);
+    filter: blur(10px);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn .8s ease-in;
+}

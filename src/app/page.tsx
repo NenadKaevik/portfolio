@@ -16,7 +16,7 @@ export default function HomePage() {
   }, []);
 
   return (
-    <div className="flex flex-col items-start sm:items-center sm:flex-row w-full space-y-8 sm:space-y-0 space-x-0 sm:space-x-8">
+    <div className="flex flex-col items-start sm:items-center sm:flex-row w-full space-y-8 sm:space-y-0 space-x-0 sm:space-x-8 fade-in">
       <div className="h-64 w-full sm:h-full sm:w-1/4 overflow-hidden rounded-3xl shrink-0">
         <img
           src="/pp.jpg"

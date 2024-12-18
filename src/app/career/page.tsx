@@ -6,7 +6,7 @@ import { FiBook, FiBriefcase, FiZap } from "react-icons/fi";
 
 export default function Career() {
   return (
-    <div className="flex flex-col space-y-4 w-full">
+    <div className="flex flex-col space-y-4 w-full fade-in">
       <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
         <PageTitle
           title="Career"
