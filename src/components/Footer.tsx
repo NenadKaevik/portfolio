@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <div className="flex justify-between space-x-2">
       <p className="text-xs">
-        Nenad Kaevik &copy; {moment().year()} All rights reserved
+        Nenad Kaevik &copy; {moment(new Date()).year()} All rights reserved
       </p>
       <div className="flex space-x-4">
         <Link
