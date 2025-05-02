@@ -35,8 +35,8 @@ export default function HomePage() {
           functional digital solutions. For the past {companyExperience} years,
           I&apos;ve been contributing my skills to Endava, where I combine
           technical proficiency with a strong focus on aesthetics and meticulous
-          attention to detail. My background also includes UI design and logo
-          creation, where I bring brands to life through compelling visuals.
+          attention to detail. My background also includes UI/UX design and logo
+          design, where I bring brands to life through compelling visuals.
           Outside of coding, I channel my creativity through photography,
           capturing moments that tell stories and reflect my keen eye for detail
           and artistry.
