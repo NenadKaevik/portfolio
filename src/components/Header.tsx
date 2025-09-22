@@ -66,7 +66,7 @@ export const Header = () => {
             <HeaderItem
               active={pathname === "/photography"}
               name="Photography"
-              href="https://unsplash.com/@nenadkaevik"
+              href="https://photo.nenadkaevik.com"
             />
           </ul>
         </div>
