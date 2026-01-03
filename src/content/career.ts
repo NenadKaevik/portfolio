@@ -1,7 +1,7 @@
 export const jobsArr = [
   {
     entityName: "Endava",
-    entityPosition: "Senior Engineer",
+    entityPosition: "Development Consultant",
     entityLocation: "Skopje, North Macedonia",
     entityDates: "May 2019 - Present",
   },
