@@ -30,14 +30,23 @@ export default function HomePage() {
           I&apos;m <span className="font-semibold">Nenad Kaevik</span>
         </h2>
         <p className="font-light leading-7 text-gray-600 dark:text-gray-400">
-          I am an experienced web developer with over {workExperience} years of
-          expertise, specializing in crafting visually stunning and highly
-          functional digital solutions. For the past {companyExperience} years,
-          I&apos;ve been contributing my skills to Endava, where I combine
-          technical proficiency with a strong focus on aesthetics and meticulous
-          attention to detail. My background also includes UI/UX design and logo
-          design, where I bring brands to life through compelling visuals.
-          Outside of coding, I channel my creativity through photography,
+          I am an experienced Full Stack Engineer and web developer with over{" "}
+          {workExperience} years of expertise, specializing in crafting visually
+          stunning and highly functional digital solutions. Passionate about
+          building scalable solutions through AI-accelerated development, I focus
+          on turning ideas into production faster while maintaining a strong
+          emphasis on quality, usability, and performance.
+          <br />
+          <br />
+          For the past {companyExperience} years, I&apos;ve been contributing my
+          skills at Endava, where I combine technical proficiency with a strong
+          focus on aesthetics and meticulous attention to detail. My background
+          also includes UI/UX and logo design, allowing me to bring brands and
+          digital products to life through compelling visual experiences.
+          <br />
+          <br />
+          Outside of software development, I channel my creativity through
+          photography, particularly automotive and landscape photography,
           capturing moments that tell stories and reflect my keen eye for detail
           and artistry.
         </p>
